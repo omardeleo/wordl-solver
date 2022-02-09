@@ -34,7 +34,7 @@ function delay(time) {
 			attemptNumber++
 		}
 		console.log(guessWord)
-		delay(3000)
+		delay(4000)
 		await browser.close()
 	} catch (e) {
 		console.error(e)
